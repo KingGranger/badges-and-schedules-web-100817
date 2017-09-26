@@ -11,3 +11,5 @@ end
 def assign_rooms speakers
   rooms = []
   speakers.each_with_index{|person, room| rooms << "Hello, #{person}! You'll be assigned to room #{room + 1}!"}
+  rooms
+end
